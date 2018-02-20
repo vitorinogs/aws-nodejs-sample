@@ -1,4 +1,4 @@
-# AWS SDK for Node.js Sample Project
+# Configuração de Automações AWS utilizando Node.js
 
 A simple Node.js application illustrating usage of the AWS SDK for Node.js.
 
