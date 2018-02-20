@@ -1,6 +1,8 @@
 {
     "dependencies": {
         "aws-sdk": ">= 2.0.9",
-        "node-uuid": ">= 1.4.1"
+        "node-uuid": ">= 1.4.1",
+        "nodemailer": "^4.4.2",
+        "shelljs": "^0.8.1"
     }
 }
