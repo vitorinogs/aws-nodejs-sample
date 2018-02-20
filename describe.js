@@ -1,6 +1,7 @@
 var AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-east-1' });
 var ec2 = new AWS.EC2({ apiVersion: '2016-11-15' });
+var email = require('./email');
 //var shell = require('shelljs');
 
 function dataAtualFormatada() {
@@ -14,7 +15,6 @@ function dataAtualFormatada() {
   var ano = data.getFullYear();
   return dia + "/" + mes + "/" + ano;
 }
-
 
 var params = {
   OwnerIds: ['459992890540']
