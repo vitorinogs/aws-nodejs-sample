@@ -6,12 +6,12 @@ nodemailer.createTestAccount((err, account) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-        host: 'mail.contatoiel.com',
+        host: 'server e-mail',
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'ielgo@mail.contatoiel.com', // generated ethereal user
-            pass: 'getinnet'  // generated ethereal password
+            user: 'user', // generated ethereal user
+            pass: 'pass'  // generated ethereal password
         }
     });
 
