@@ -20,8 +20,8 @@ nodemailer.createTestAccount((err, account) => {
         // console.log(texto);
 
         let mailOptions = {
-            from: '"Status Snapshots AWS👻" <contato.iel@sistemafieg.org.br>', // sender address
-            to: 'joaovitorino.iel@sistemafieg.org.br', // list of receivers
+            from: '"Status Snapshots AWS👻" <contato@email.com>', // sender address
+            to: 'email@email.com', // list of receivers
             subject: 'Status Snapshots AWS ✔', // Subject line
             text: 'Status Snapshots AWS.', // plain text body
             html: texto // html body
